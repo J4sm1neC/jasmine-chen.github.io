@@ -2,7 +2,7 @@ import styles from "./homepage.module.css";
 
 export function HomePage() {
     return (
-        <main>
+        <main className={styles.main}>
             <div className={styles.window_wrap}>
                 <div className={styles.window}>
                     <div className={styles.top_bar}>

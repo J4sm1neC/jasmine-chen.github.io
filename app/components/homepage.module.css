@@ -1,3 +1,10 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .window_wrap {
   display: flex;
   justify-content: center;
@@ -36,11 +43,11 @@
 }
 
 .content {
-  padding: 1.5rem 4rem 3rem 4rem;
+  padding: clamp(1rem, 3vw, 1.3rem) clamp(1.25rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem);
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1.75rem, 5vw, 4rem);
   font-family: "Mali", monospace;
 }
 
@@ -56,9 +63,12 @@ p {
 }
 
 .contact {
+  width: 100%;
   max-width: 50rem;
-  margin: 3rem auto 0;
+  margin: 1.5rem auto 0;
   padding: 0 1.5rem;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 h2 {
@@ -70,8 +80,9 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
+  gap: clamp(1rem, 3vw, 2rem);
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .contactLinks {
@@ -97,9 +108,11 @@ h2 {
 }
 
 .contactBox {
+  flex: 1;
+  min-width: 20rem;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 0.75rem;
-  padding: 1rem 15rem 1rem 2rem;
+  padding: 1rem clamp(2rem, 14vw, 20rem) 1rem 2rem;
   box-shadow:
     0 0 2.5rem rgba(255, 255, 255, 0.35),
     0 0 7.5rem rgba(255, 255, 255, 0.12),
