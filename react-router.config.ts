@@ -4,5 +4,5 @@ export default {
   // Config options...
   // Server-side render by default, to enable SPA mode set this to `false`
   ssr: false,
-  basename: "/jasmine-chen.github.io/",
+  basename: "/j4sm1nec.github.io/",
 } satisfies Config;

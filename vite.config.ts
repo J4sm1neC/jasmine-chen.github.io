@@ -3,6 +3,6 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/jasmine-chen.github.io/",
+  base: "/j4sm1nec.github.io/",
   plugins: [tailwindcss(), reactRouter()],
 });
