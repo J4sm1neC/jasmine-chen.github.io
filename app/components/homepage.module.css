@@ -1,0 +1,108 @@
+.window_wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 0 1.5rem;
+}
+
+.window {
+  width: 100%;
+  max-width: 50rem;
+  border-radius: 0.75rem;
+  border: 2px solid #000000;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.top_bar {
+  background: #d6e7ff;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 2px solid #000000;
+}
+
+.dot {
+  background: #ffffff;
+  width: 0.75rem;
+  height: 0.75rem;
+  min-width: 0.75rem;
+  min-height: 0.75rem;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 1.5rem 4rem 3rem 4rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-family: "Mali", monospace;
+}
+
+hr {
+  border: 0;
+  border-top: 1.5px solid #979797;
+}
+
+p {
+  font-size: clamp(0.9rem, 2vw, 1.125rem);
+  font-family: "Fredoka", monospace;
+  line-height: 1.6;
+}
+
+.contact {
+  max-width: 50rem;
+  margin: 3rem auto 0;
+  padding: 0 1.5rem;
+}
+
+h2 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-family: "Mali", monospace;
+}
+
+.contactBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: #000000;
+  text-decoration: none;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  font-family: "Fredoka", monospace;
+  white-space: nowrap;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+  color: #364fa7;
+}
+
+.contactBox {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0.75rem;
+  padding: 1rem 15rem 1rem 2rem;
+  box-shadow:
+    0 0 2.5rem rgba(255, 255, 255, 0.35),
+    0 0 7.5rem rgba(255, 255, 255, 0.12),
+    0 0 18.75rem rgba(255, 255, 255, 0.04);
+  border: none;
+}
