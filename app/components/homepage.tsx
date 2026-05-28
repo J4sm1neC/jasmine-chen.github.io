@@ -47,7 +47,7 @@ export function HomePage() {
                             </svg>
                             jasmine.hy.chen10@gmail.com
                         </a>
-                        <a href="https://www.linkedin.com/in/jasmine-chen-474275398/" className={styles.contactLink}>
+                        <a href="https://www.linkedin.com/in/jasmine-hy-chen/" className={styles.contactLink}>
                             <svg style={{ flexShrink: 0, minWidth: "1.75rem", minHeight: "1.75rem" }} height="1.75rem" width="1.75rem" viewBox="0 0 382 382" fill="#0077B5" version="1.1" xmlns="http://www.w3.org/2000/svg">
                             <path d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889
                             C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056
@@ -59,7 +59,7 @@ export function HomePage() {
                             c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472
                             L341.91,330.654L341.91,330.654z"/>
                             </svg>
-                            linkedin.com/in/jasmine-chen-474275398/
+                            linkedin.com/in/jasmine-hy-chen/
                         </a>
                         <a href="https://github.com/J4sm1neC" className={styles.contactLink}>
                             <svg width="1.75rem" height="1.75rem" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
